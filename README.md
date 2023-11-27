@@ -1,5 +1,8 @@
 # android-beans-demo
-
+touch file
+ln -s file symlink
+ln symlink hardlink
+ls -la
 ## Demo Step 1:
 
 Create an android app. Incorporate ML Kit and CameraX. Use CameraX to grab an image, pass it to MLKit, get the labels back, and render them in a toast.
